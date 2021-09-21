@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Preço de Venda</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Preço de Venda</h1>
+        </div>
+        <form id="form" method="POST" action="/desconto">
+            <div class="form-group">
+                Preço unit.: <input type="text" name="preco" value="" size="25" class="form-control" />
+            </div>
+            <div class="form-group">
+                Quantidade: <input type="text" name="quant" value="" size="5" class="form-control" />
+            </div>
+            <div class="form-group">
+                Desconto: <input type="text" name="desconto" value="" size="5" class="form-control" />
+            </div>
+
+            <input type="submit" value="Calcular" class="btn btn-primary" />
+        </form>
+    </div>
+</body>
+
+</html>

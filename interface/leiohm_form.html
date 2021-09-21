@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lei de Ohm</title>
+    <meta charset="UTF-8" lang="Pt-Br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Lei de Ohm</h1>
+        </div>
+        <form id="form" method="POST" action="/ohm">
+            <div class="form-group">
+                Tensao: <input type="text" name="tensao" value="" size="25" class="form-control" />
+            </div>
+            <div class="form-group">
+                Corrente: <input type="text" name="corrente" value="" size="5" class="form-control" />
+            </div>
+            <input type="submit" value="Calcular" class="btn btn-primary" />
+        </form>
+    </div>
+</body>
+
+</html>
